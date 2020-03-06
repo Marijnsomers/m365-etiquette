@@ -37,3 +37,9 @@ Files in Microsoft Teams that you use occasionally
 Files stored in the intranet
 - Web browser - SharePoint
 - SharePoint Mobile App
+
+## Metadata
+Creating metadata
+- when you create a new metadata field, don't use spaces in the wording.
+For example: "Project Manager". When you need to refer to this field in code or html, it will come up as "Project_0x00_Manager"
+Create the field as "ProjectManager" . Afterwards, edit the field and change the name to "Project Manager". The title will be changed, but not the underlying name.
